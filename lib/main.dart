@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx_learn/pages/counter.dart';
 import 'package:getx_learn/pages/getxRoutes.dart';
 import 'package:getx_learn/pages/snackbar.dart';
 
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const SnackbarWedget(),
+      home: const CounterWidget(),
     );
   }
 }
